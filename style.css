@@ -8,7 +8,7 @@ a,.smalltext{
     font-size: 18px;
 }
 .f1{
-    border: 2px solid saddlebrown;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,8 +32,9 @@ a,.smalltext{
     justify-content: space-evenly;
     color:#f9faf8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     max-width: 400px;
+     
     
 }
 .signup{
@@ -67,7 +68,7 @@ ul{
     border:4px solid #3882f6;
     border-radius: 25px;
 }
-.f2{ /
+.f2{ /*acts as the second *white* area flex *column dirctn*/
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -79,7 +80,7 @@ ul{
 .infobox{
     display: flex;
     justify-content: space-between;
-    border:3px solid greenyellow;
+     
     justify-content: center;
     align-items:center;
     
@@ -87,9 +88,87 @@ ul{
 }
 .f2h{
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color:#1f2937;
 }
 .i{
     width: 200px;
 }
+/*3rd box*/
+.q{
+    display:flex;
+    font-size:36px;
+    font-style: italic;
+   color: #1f2937;
+    flex-flow:column;
+    background-color: #e5e7eb;
+    justify-content: space-between;
+    padding:88px;
+     
+     
+}
+.by{
+    margin-left: auto;
+    margin-top: 1rem;
+    color:inherit;
+    font-weight: 800;
+    align-self: flex-end;
+}
+.f4{
+    display: flex;
+    justify-content: space-between;
+     
+    background-color:  #3882f6;
+   color:#f9faf8;
+   padding:  10px 40px;
+   border-radius: 10px;
+   flex:auto;
+    
+   }
+    input{
+   background-color:  #3882f6;
+   color:#f9faf8;
+   width:100px;
+   align-self: center;
+   padding:5px;
+   border:rgb(234, 23, 23);
+   border-radius: 5px;
+   }
+   .in{
+    align-self: center;
+    border:2px solid #f9faf8;
+    border-radius: 5px;
+   }
+.mf4{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+     
+    height: 300px;
+    background-color:  snow;
+    padding:60px;
+    
+}
+.bh{
+    font-size: 36px;
+   
+}
+.subtext{
+    font-size: 18px;
+    max-width: 300px;
+    margin-top: 0.6rem;  
+}
+
+
+
+.footer{
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #f9faf8;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+ 
