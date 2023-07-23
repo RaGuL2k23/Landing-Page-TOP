@@ -1,0 +1,95 @@
+/* just header clor here*/
+.headerlogo{
+    font-size: 24px;
+    color:#f9faf8;
+}
+a,.smalltext{
+    color:#e5e7eb ;
+    font-size: 18px;
+}
+.f1{
+    border: 2px solid saddlebrown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #1f2937;
+     
+   
+    
+
+}
+.cf1{
+    border: 3px solid;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 20px;
+}
+.bigtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+    max-width: 400px;
+    
+}
+.signup{
+    flex-grow: 0;
+    background-color: #3882f6;
+    width: fit-content;
+    font-size: small;
+    padding:5px 18px;
+    border-radius: 8px;
+}
+/* here i the hmm "this is where '''grey box''' goes*/
+.greybox{
+    display: flex;
+    
+    flex-direction: column;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap:14px;
+}
+
+ 
+
+
+
+.infobox > img{
+    width:250px;
+    height:240px;
+    border:4px solid #3882f6;
+    border-radius: 25px;
+}
+.f2{ /
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: snow;
+    padding:32px;
+    gap:32px;
+}
+.infobox{
+    display: flex;
+    justify-content: space-between;
+    border:3px solid greenyellow;
+    justify-content: center;
+    align-items:center;
+    
+    gap:26px;
+}
+.f2h{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color:#1f2937;
+}
+.i{
+    width: 200px;
+}
