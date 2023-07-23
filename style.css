@@ -1,4 +1,7 @@
 /* just header clor here*/
+body,html{
+    height: 100%;
+}
 .headerlogo{
     font-size: 24px;
     color:#f9faf8;
@@ -14,13 +17,12 @@ a,.smalltext{
     align-items: center;
     padding: 0 20px;
     background-color: #1f2937;
-     
+     flex: auto;
    
     
 
 }
 .cf1{
-    border: 3px solid;
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
@@ -50,6 +52,7 @@ a,.smalltext{
     display: flex;
     
     flex-direction: column;
+    
 }
 
 ul{
@@ -171,4 +174,11 @@ ul{
     align-items: center;
     padding: 30px;
 }
- 
+.herocontainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.herocontainer > *{
+    flex:auto;
+}
