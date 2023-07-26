@@ -206,3 +206,7 @@ body > *{
 strong{
    color:rgb(39, 248, 91);
 }
+.headerlogo > img{
+    width: 210px;
+    height: 110px;
+}
